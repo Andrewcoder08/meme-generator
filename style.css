@@ -72,3 +72,34 @@ body {
   color: red;
   font-weight: bold;
 }
+@media only screen and (max-width: 1024px) {
+  .meme-img {
+    height: 400px;
+    margin: auto;
+    object-fit: cover;
+  }
+}
+@media only screen and (max-width: 912px) {
+  .meme-img {
+    height: 355px;
+    margin: auto;
+    object-fit: cover;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .meme-img {
+    height: 160px;
+    margin: auto;
+    object-fit: cover;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .meme-img {
+    height: 100px;
+    margin: auto;
+    object-fit: cover;
+  }
+  .meme-author {
+    font-size: 0.5rem;
+  }
+}
