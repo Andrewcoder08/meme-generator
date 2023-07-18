@@ -22,6 +22,7 @@ function errorHandler() {
 }
 
 function updateDetails(url, title, author) {
+  memeImage.style.display = "block";
   memeImage.setAttribute("src", url);
   memeTitle.innerText = title;
   memeAuthor.innerText = `Meme by: ${author}`;
