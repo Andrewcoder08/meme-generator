@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  text-align: center;
+  background: #f3f3f3;
+  font-family: "Roboto Slab", serif;
+  color: midnightblue;
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  padding: 1rem;
+  color: black;
+}
+
+.meme-btn {
+  padding: 0.8rem;
+  border: none;
+  border-left: 3px solid midnightblue;
+  border-right: 3px solid midnightblue;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: white;
+  cursor: pointer;
+  margin: 1rem;
+  transition: all 200ms ease;
+}
+.meme-details {
+  display: none;
+}
+.meme-details {
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50vw;
+}
+.meme-btn:hover {
+  padding: 0.8rem 2rem;
+  border-left: 5px solid midnightblue;
+  letter-spacing: 0.05em;
+  border-right: 5px solid midnightblue;
+}
+
+.meme-title {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  font-weight: 600;
+}
+
+.meme-img {
+  height: 490px;
+  margin: auto;
+  object-fit: cover;
+}
+
+.meme-author {
+  font-size: 1rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  font-weight: 600;
+}
+
+.meme-streak-count {
+  padding: 1rem;
+}
+.streak {
+  color: red;
+  font-weight: bold;
+}

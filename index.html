@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="heading">Meme Generator</div>
+    <main class="meme-generator">
+      <button class="meme-btn" id="meme-generate-btn">Generate Meme</button>
+      <div class="meme-streak-count">
+        You have watched: <span class="streak" id="meme-count">0 memes</span>
+      </div>
+      <section class="meme-details" id="meme-details">
+        <div class="meme-title" id="meme-title-text">
+          Loading.... Click on generate button to see memes
+        </div>
+        <img src="" alt="" class="meme-img" id="meme-image" />
+        <div class="meme-author" id="meme-author-text"></div>
+      </section>
+    </main>
+    <script src="logic.js"></script>
+  </body>
+</html>
